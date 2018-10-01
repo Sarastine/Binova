@@ -1,0 +1,35 @@
+/*.SymbolAt {
+	background-image: url("../img/SymbolAt.png");
+	background-repeat: no-repeat;
+	background-color: #706E70;
+}*/
+
+.BackgroundFooterGrey {
+	background-color: #EDE9E0;
+}
+.BackgroundFooterBlack {
+	background-color: #706E70;
+	color: #F1FAD6;
+	background-image: url("../img/SymbolAt.png");
+	background-repeat: no-repeat;
+	min-height: 60px; 
+}
+
+.FontFooter {
+	font-size: 10px;
+}
+.WidthMax {
+	width: 100%;
+}
+
+p {
+	text-align: center;
+}
+
+.Bords {
+	border: 2px red solid;
+}
+#Address {
+	font-size: 20px;
+
+}
