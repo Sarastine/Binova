@@ -6,13 +6,24 @@
 
 .BackgroundFooterGrey {
 	background-color: #EDE9E0;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .BackgroundFooterBlack {
-	background-color: #706E70;
+	background: #706E70 url("../img/SymbolAt.png") no-repeat;
+	/*background-color: #EDE9E0;*/
 	color: #F1FAD6;
-	background-image: url("../img/SymbolAt.png");
-	background-repeat: no-repeat;
-	min-height: 60px; 
+	min-height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: -15px;
+}
+.BackgroundFooterBlue {
+	background-color: #45637A;
+}
+.LineBlue {
+	background-color: #45637A;
+	height: 10px;
 }
 
 .FontFooter {
@@ -31,5 +42,5 @@ p {
 }
 #Address {
 	font-size: 20px;
-
+	text-align: right;
 }
