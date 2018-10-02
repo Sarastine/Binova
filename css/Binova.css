@@ -85,14 +85,22 @@
 	margin-bottom: 0px;
   height: 60px;
 }
-.BackgroundFooterBlack {
+.BackgroundFooterBlackG {
 	background: #EDE9E0 url("../img/SymbolAt.png") no-repeat;
-	/*background-color: #706E70;*/
 	color: #F1FAD6;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: -15px;
   height: 60px;
+}
+.BackgroundFooterBlackB {
+  background: #706E70 url("../img/SymbolAt.png") no-repeat;
+  color: #F1FAD6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+  height: 60px;
+  width: 110%;
 }
 .BackgroundFooterBlue {
 	background-color: #45637A;
@@ -133,7 +141,7 @@
   margin-top: 15px;
 }
 
-#email {
+.email {
   text-align: center;
   margin: auto auto auto 40px;
   height: 60px;
