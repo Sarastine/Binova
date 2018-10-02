@@ -107,6 +107,7 @@
 	font-size: 10px;
   margin-left: 10px;
   color: rgb(112,110,112);
+  vertical-align: middle;
 }
 .SpanFooter {
   color: rgb(112,110,112);
@@ -126,10 +127,16 @@
 .Bords {
 	border: 2px red solid;
 }
+.Width {
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 15px;
+}
 
 #email {
   text-align: center;
   margin: auto auto auto 40px;
+  height: 60px;
 }
 #Address {
   padding-top: 0px;
