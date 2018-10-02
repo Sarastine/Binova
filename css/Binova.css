@@ -4,10 +4,10 @@
 
 .nav ul li{
   list-style: none;
-  display:block;
+  display:inline-flex;
   position:relative;
   font-size:22px;
-  float:left;
+  margin-left:20px;
 }
 
 
@@ -26,8 +26,11 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:738px){
+@media screen and (max-width:768px){
 
+  .nav ul li{
+    margin-left: 0px;
+  }
   #menuToggle + label{
     margin-right:-10px;
     cursor:pointer;
