@@ -1,3 +1,7 @@
+/*==========================Menu====================
+  je pique l'idée du site du coup pour separer les css :p
+  ==================================================*/
+
 .nav{
   background:#EDE9E0;
 }
@@ -9,7 +13,6 @@
   font-size:22px;
   margin-left:20px;
 }
-
 
 #menuToggle{
   opacity:0;
@@ -68,3 +71,55 @@
     transition: .5s;
     transition-delay:0.3s;
   }
+ }
+
+/*=================================Footer=========================
+
+  ================================================================*/
+
+/*.SymbolAt {
+	background-image: url("../img/SymbolAt.png");
+	background-repeat: no-repeat;
+	background-color: #706E70;
+}*/
+
+.BackgroundFooterGrey {
+	background-color: #EDE9E0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.BackgroundFooterBlack {
+	background: #706E70 url("../img/SymbolAt.png") no-repeat;
+	/*background-color: #EDE9E0;*/
+	color: #F1FAD6;
+	min-height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: -15px;
+}
+.BackgroundFooterBlue {
+	background-color: #45637A;
+}
+.LineBlue {
+	background-color: #45637A;
+	height: 10px;
+}
+
+.FontFooter {
+	font-size: 10px;
+}
+.WidthMax {
+	width: 100%;
+}
+
+p {
+	text-align: center;
+}
+
+.Bords {
+	border: 2px red solid;
+}
+#Address {
+	font-size: 20px;
+	text-align: right;
+}
