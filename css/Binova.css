@@ -28,7 +28,6 @@
   padding-left:2px;
   font-family: 'League Gothic';
 }
-
 .nav a:hover{
   color:rgb(51,51,51);
   text-decoration: none;
@@ -251,4 +250,8 @@ div.inner_article_content {
 }
 body{
   margin: 0px;
+}
+div#ImageFond {
+  width:100%;
+
 }
