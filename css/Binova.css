@@ -147,13 +147,13 @@ img.transparent{
   color: #222;
 float:right;
 }
-div#ImageFond{
-
-}
 @media {
   img.transparent{
     background: none;
-  }
+    }
+    .hidden-xs{
+        visibility: hidden !important;
+    }
 }
 
 img#people_img{
@@ -164,6 +164,10 @@ img#people_img{
 div#ImageFond img {
     width: 100%;
 }
+@media#ImageFond img {
+  max-width:inherit;
+  min-height:inherit;
+}
 div#row_mid{
     background-image: url("/imgSite/header.jpg");
     background-position: center;
@@ -171,7 +175,6 @@ div#row_mid{
 }
 div#home_text_cotainer {
     padding: 25px;
-    min-height: 455px;
     text-align: justify;
     box-sizing: border-box;
     color: rgb(51, 51, 51);
@@ -183,13 +186,13 @@ div#home_text_cotainer {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    min height: 455px;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 25px;
+    padding-top: 50px;
     position: relative;
-    width: 320.233px
+    width: 320.233px;
+    height: 455px;
 }
 @media (max-width: 900px) {
     div#home_text_cotainer {
