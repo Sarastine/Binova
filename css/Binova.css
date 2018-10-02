@@ -78,32 +78,25 @@
   }
  }
 
-/*=================================Footer=========================
-
-  ================================================================*/
-
-/*.SymbolAt {
-	background-image: url("../img/SymbolAt.png");
-	background-repeat: no-repeat;
-	background-color: #706E70;
-}*/
-
+/*=================================Footer=========================*/
 .BackgroundFooterGrey {
 	background-color: #EDE9E0;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  height: 60px;
 }
 .BackgroundFooterBlack {
-	background: #706E70 url("../img/SymbolAt.png") no-repeat;
-	/*background-color: #EDE9E0;*/
+	background: #EDE9E0 url("../img/SymbolAt.png") no-repeat;
+	/*background-color: #706E70;*/
 	color: #F1FAD6;
-	min-height: 60px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	margin-left: -15px;
+  height: 60px;
 }
 .BackgroundFooterBlue {
 	background-color: #45637A;
+  height: 60px;
 }
 .LineBlue {
 	background-color: #45637A;
@@ -115,8 +108,15 @@
   margin-left: 10px;
   color: rgb(112,110,112);
 }
-.WidthMax {
-	width: 100%;
+.SpanFooter {
+  color: rgb(112,110,112);
+  font-size: 23px;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+.Padding {
+	padding-top: 5px;
 }
 
 .pFooter {
@@ -126,11 +126,16 @@
 .Bords {
 	border: 2px red solid;
 }
+
 #email {
-	margin-left: 0px;
+  text-align: center;
+  margin: auto auto auto 40px;
 }
 #Address {
   padding-top: 0px;
+}
+#LineWithPicture {
+  height: 60px;
 }
 /*Body*/
 
