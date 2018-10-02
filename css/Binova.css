@@ -112,6 +112,8 @@
 
 .FontFooter {
 	font-size: 10px;
+  margin-left: 10px;
+  color: rgb(112,110,112);
 }
 .WidthMax {
 	width: 100%;
@@ -124,9 +126,11 @@
 .Bords {
 	border: 2px red solid;
 }
+#email {
+	margin-left: 0px;
+}
 #Address {
-	font-size: 20px;
-	text-align: right;
+  padding-top: 0px;
 }
 /*Body*/
 
@@ -240,7 +244,7 @@ div.inner_article_content {
         margin-top: 10px;
     }
 }
-p{
+.pBody{
   margin : 10px;
   margin-left: 45%;
   text-align: justify;
