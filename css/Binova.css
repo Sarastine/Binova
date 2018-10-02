@@ -140,10 +140,10 @@
 img.transparent{
   background: hsl(0,0%,90%) url("../img/fond_home_container_right.png");
   color: #222;
-  margin-left: 72%;
-  max-width: 45%;
-  height: 45%;
-  background-size: 300px 150px;
+float:right;
+}
+div#ImageFond{
+
 }
 @media {
   img.transparent{
@@ -155,6 +155,9 @@ img#people_img{
     margin-top: -155px;
     background-image: url("/imgSite/people.png");
     margin-left : 19%;
+}
+div#ImageFond img {
+    width: 100%;
 }
 div#row_mid{
     background-image: url("/imgSite/header.jpg");
