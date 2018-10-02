@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+/*==========================Menu====================*/
+/*  je pique l'idée du site du coup pour separer les css :p
+/*==================================================*/
+
 .nav{
   background:#EDE9E0;
 }
@@ -69,7 +72,12 @@
     transition: .5s;
     transition-delay:0.3s;
   }
-=======
+
+/*=================================Footer=========================*/
+/*
+/*================================================================*/
+
+
 /*.SymbolAt {
 	background-image: url("../img/SymbolAt.png");
 	background-repeat: no-repeat;
@@ -116,4 +124,4 @@ p {
 	font-size: 20px;
 	text-align: right;
 }
->>>>>>> 91f967571e9b8f56365c6c3ba502a5217b5fb1a6
+/*>>>>>>> 91f967571e9b8f56365c6c3ba502a5217b5fb1a6
