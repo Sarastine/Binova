@@ -1,43 +1,32 @@
-/*==========================Menu====================
-  je pique l'idée du site du coup pour separer les css :p
-  ==================================================*/
 .nav{
   background:#EDE9E0;
-}
-#menu{
-  display:block;
-}
-.nav ul li{
-  list-style: none;
-  position:relative;
-  font-size:22px;
-  margin-left:15px;
-}
-.nav ul{
-  float:left;
-  display:flex;
-  justify-content: center;
 }
 #menuToggle{
   opacity:0;
 }
-
 .nav a{
   color:rgb(119,119,119);
-  padding-left:2px;
   font-family: 'League Gothic';
+}
 
+#Brand{
+    float:left;
+}
+#CenterNav{
+    vertical-align: middle;
 }
 .nav a:hover{
   color:rgb(51,51,51);
+  background-color:none!important;
   text-decoration: none;
 }
 
-#brand{
-  float:left;
+.nav ul li{
+  font-size:22px;
+  background:#EDE9E0;
 }
-@media screen and (max-width:990px){
 
+@media screen and (max-width:990px){
   .nav ul li{
     margin-left: 0px;
   }
@@ -59,7 +48,7 @@
     background:#888888;
   }
   #menuToggle:checked + label  ~ #MenuCollapse{
-    height:230px;
+    height:250px;
     transition-delay: 0s;
     opacity:1;
     transition: .5s;
@@ -77,10 +66,10 @@
     transition-delay:0.3s;
   }
   .pBody{
-     margin-left: 0px;
+     vertical-align: middle;
   }
  }
-/*=================================Footer=========================*/
+
 .BackgroundFooterGrey {
 	background-color: #EDE9E0;
 	margin-top: 0px;
@@ -112,7 +101,6 @@
 	background-color: #45637A;
 	height: 10px;
 }
-
 .FontFooter {
 	font-size: 10px;
   margin-left: 10px;
@@ -129,11 +117,9 @@
 .Padding {
 	padding-top: 5px;
 }
-
 .pFooter {
 	text-align: center;
 }
-
 .Bords {
 	border: 2px red solid;
 }
@@ -142,7 +128,6 @@
   vertical-align: middle;
   margin-top: 15px;
 }
-
 .email {
   text-align: center;
   margin: auto auto auto 40px;
@@ -154,19 +139,15 @@
 #LineWithPicture {
   height: 60px;
 }
-/*Body*/
-
-/* ================================================================================================= */
-/* ============================================	HOME PAGE ============================================ */
-/* ================================================================================================= */
 img.transparent{
   background: hsl(0,0%,90%) url("../img/fond_home_container_right.png");
   color: #222;
 float:right;
 }
-div#ImageFond {
+#ImageFond img {
   width:100%;
 }
+
 @media {
   img.transparent{
     background: none;
@@ -178,22 +159,16 @@ div#ImageFond {
 
 img#people_img{
     margin-top: -155px;
-    background-image: url("/imgSite/people.png");
-    margin-left : 19%;
 }
-div#ImageFond img {
-    width: 110%;
-}
+
 @media#ImageFond img {
   max-width:inherit;
   min-height:inherit;
 }
 div#row_mid{
-    background-image: url("/imgSite/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
-
 #fondvert{
   background-image: url("../img/fond_home_container_right.png");
   background-repeat: no-repeat;
@@ -228,16 +203,13 @@ div#home_text_container {
     }
     img#people_img{
         margin-top: 0px;
-        margin-left: -5%;
+        vertical-align: middle;
     }
     #fondvert{
       background-image: none;
       margin-left: 0;
     }
 }
-/* ================================================================================================= */
-/* ============================================	CATEGORY	============================================ */
-/* ================================================================================================= */
 div.category_body{
     background-color: #FFFFFF;
 }
