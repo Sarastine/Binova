@@ -226,13 +226,17 @@ div#home_text_container {
 }
 @media (max-width: 900px) {
     div#home_text_container {
-        min-height: 0px;
-        min-width: 0px;
+      margin-right: 25%;
+      width:100%;
     }
 
     img#people_img{
         margin-top: 0px;
         margin-left: -5%;
+    }
+    #fondvert{
+      background-image: none;
+      margin-left: 0;
     }
 }
 /* ================================================================================================= */
@@ -302,5 +306,4 @@ body{
 }
 #fondvert{
   position:relative;
-  z-index: 2;
 }
