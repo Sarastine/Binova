@@ -1,11 +1,9 @@
 /*==========================Menu====================
   je pique l'idée du site du coup pour separer les css :p
   ==================================================*/
-
 .nav{
   background:#EDE9E0;
 }
-
 #menu{
   display:block;
 }
@@ -38,7 +36,7 @@
 #brand{
   float:left;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:990px){
 
   .nav ul li{
     margin-left: 0px;
@@ -51,6 +49,7 @@
     padding-left: 10px;
     border:1px solid #DDDDDD;
     border-radius: 4px;
+    float:right;
   }
   #menuToggle+ label > span{
     display:block;
@@ -68,8 +67,6 @@
   #menuToggle:checked + label{
     background:#DDDDDD;
   }
-
-
   #menuToggle:checked  + label ~ #MenuCollapse >ul >li{
     opacity:1;
     }
@@ -229,7 +226,6 @@ div#home_text_container {
       margin-right: 25%;
       width:100%;
     }
-
     img#people_img{
         margin-top: 0px;
         margin-left: -5%;
@@ -242,7 +238,6 @@ div#home_text_container {
 /* ================================================================================================= */
 /* ============================================	CATEGORY	============================================ */
 /* ================================================================================================= */
-
 div.category_body{
     background-color: #FFFFFF;
 }
